@@ -1,0 +1,165 @@
+/* logo */
+/* https://trello.com/assets/c8b7bafdbc02d4015366.svg */
+/* welcome img */
+/* https://trello.com/assets/a7fb768ffd0181cbfc63.svg */
+
+:root {
+    --logoBgClr: #0c66e4;
+    --text_clr: #172b4d;
+    --color:#ffffff;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    display: flex;
+    padding: 12px 0 12px 44px;
+    height: 70px;
+    z-index: 1;
+    background-color: var(--logoBgClr);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: linear-gradient(to-right, blue,#ffffff); */
+}
+
+/* .leftFormContent{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+} */
+.leftFormContent
+{
+    grid-row: 2;
+    grid-column: 2;
+    max-width: 340px;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.left h1{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, sans-seri;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+.left p{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, sans-seri;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #172B4D;
+}
+.right {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.lower {
+    position: relative;
+    z-index: -5;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2em 0;
+    height: 100%;
+}
+.lower svg{
+    margin: 0 4.25em;
+    max-height: 100%;
+    max-width: 100%;
+}
+.upper {
+   
+    z-index: 5;
+    position: absolute;
+    /* top: 0px; */
+    padding-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.upper img{
+    /* height: 250vh;
+    width: 250vw; */
+    max-height: 450%;
+    max-width: 450%;
+    transform: scale(0.53);
+    border: none;
+}
+button{
+    box-shadow: none;
+    border: none;
+    background-color: #ffffff;
+}
+
+.leftFormContent button,.btn{
+    padding: 10px;
+    background-color: var(--logoBgClr);
+    font-weight: bold;
+    color: var(--color);
+    border-radius: 5px;
+}
+.build_board,.btn{
+    box-shadow: 5px 5px 4px rgba(27, 27, 110, 0.803);
+}
+.build_board:hover ,.cont_btns a button:hover{
+    transition: .5s;
+    background-color: rgba(94, 29, 97, 0.533);
+    cursor: pointer;
+}
+.email{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.cont_btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .upper{
+        padding-top:0px;
+        margin-bottom: 0px;
+        padding-left: -100px;
+    }
+    .upper img{
+        max-height: 200%;
+        max-width: 100%;
+        transform: scale(0.5);
+    }
+}
