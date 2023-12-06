@@ -41,8 +41,9 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 
 
+![Screenshot_2](https://github.com/Shikhasharma06/Team-2-Projects/assets/135316685/993fbf98-b930-45cf-b047-a2227d79373c)
 
-![Screenshot_1](https://github.com/Shikhasharma06/Team-2-Projects/assets/135316685/7ff5eae5-67d2-4b0e-849d-f1d464c1f8a7)
+
 
 
 
