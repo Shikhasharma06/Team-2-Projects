@@ -1,6 +1,6 @@
 Trello 
 Host Link:-
-https://github.com/Shikhasharma06/Team-2-Projects/tree/main/Trello%20clone
+https:https://github.com/Shikhasharma06/Team-2-Projects/tree/main
 
 Overview
 This project is a Trello-like board, designed for managing tasks and projects using an Agile approach. It provides a user-friendly interface with drag-and-drop functionality for easy task management.
