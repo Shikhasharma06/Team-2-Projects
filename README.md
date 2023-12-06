@@ -24,5 +24,12 @@ Welcome to the project repository! This repository contains five distinct projec
 - **Description:** Experience the classic Minesweeper game in a web format. Test your logical deduction skills by uncovering hidden mines on a grid. With varying difficulty levels, this game offers a blend of strategy and memory for an engaging gaming experience.
 - **Hosted Link:** [Link for Minesweeper](https://karan9927.github.io/Team-2-Projects/Minesweeper/)
 
+### 6. 💳 Payment Integration
+
+- **Description:** Simple and efficient online ordering system for a pizza restaurant. It allows users to browse the menu, place orders, and seamlessly complete transactions using Razorpay payment integration.
+- **Project Link:** [Link for Payment Integration](https://github.com/Karan9927/Team-2-Projects/tree/main/manasa-payment-integration
+)
+
+
 ### Enjoy exploring the projects! If you have any questions or feedback, feel free to reach out.
 
