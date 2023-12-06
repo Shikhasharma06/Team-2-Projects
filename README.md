@@ -6,7 +6,7 @@ Welcome to the project repository! This repository contains five distinct projec
 
 ### 1. Resume Builder
 - **Description:** A user-friendly web application for creating polished and professional resumes. Simply input your career details, skills, and achievements to generate a visually appealing resume ready for download.
-- **Hosted Link:** [Link for Resume Builder]()
+- **Hosted Link:** [Link for Resume Builder](https://karan9927.github.io/Team-2-Projects/Resume-Builder/)
 
 ### 2. Invoice Generator
 - **Description:** Streamline your invoicing process with this versatile tool. Ideal for freelancers and small businesses, it allows you to effortlessly create and download customized invoices, ensuring a professional presentation of your financial transactions.
