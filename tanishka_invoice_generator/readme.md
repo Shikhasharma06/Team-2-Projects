@@ -6,12 +6,15 @@ Here is a view of my page->
 <img width="945" alt="Screenshot 2023-12-06 183214" src="https://github.com/Karan9927/Team-2-Projects/assets/127411985/eda4695e-8678-465b-b2e6-ceb6a555d88f">
 <img width="947" alt="Screenshot 2023-12-06 183238" src="https://github.com/Karan9927/Team-2-Projects/assets/127411985/0e15c92c-a3bd-4dd6-9bb2-4a31d40512a8">
 HTML
+
 HTML includes input sections for invoice details, dates, company information, a list of items with prices and quantities, additional charges, and a button to generate the invoice. The page also contains a preview section with details dynamically filled from the input, allowing users to save, print, or download the generated invoice. The code is linked to external CSS and JavaScript files for styling and functionality.
 
 css
+
 Used Normal properties for styling.
 
 Java Script
+
 AddList():
          Purpose: 1.This function is triggered when the "Add" button is clicked to add a new item to the invoice.
       2. It dynamically creates a new list item with input fields for item details (name, price, quantity, and total), and 
