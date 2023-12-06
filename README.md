@@ -10,7 +10,7 @@ Welcome to the project repository! This repository contains five distinct projec
 
 ### 2. Invoice Generator
 - **Description:** Streamline your invoicing process with this versatile tool. Ideal for freelancers and small businesses, it allows you to effortlessly create and download customized invoices, ensuring a professional presentation of your financial transactions.
-- **Hosted Link:** [Link for Invoice Generator]()
+- **Hosted Link:** [Link for Invoice Generator](https://karan9927.github.io/Team-2-Projects/tanishka_invoice_generator/)
 
 ### 3. Chrome Extension
 - **Description:** This Chrome Extension is designed to enhance your YouTube experience by allowing you to bookmark timestamps of videos. Easily mark and recall specific points of interest in videos, making it convenient to revisit or share your favorite moments.
@@ -22,7 +22,7 @@ Welcome to the project repository! This repository contains five distinct projec
   
 ### 5. Minesweeper
 - **Description:** Experience the classic Minesweeper game in a web format. Test your logical deduction skills by uncovering hidden mines on a grid. With varying difficulty levels, this game offers a blend of strategy and memory for an engaging gaming experience.
-- **Hosted Link:** [Link for Minesweeper]()
+- **Hosted Link:** [Link for Minesweeper](https://karan9927.github.io/Team-2-Projects/Minesweeper/)
 
 Enjoy exploring the projects! If you have any questions or feedback, feel free to reach out.
 
