@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello Board </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+    <header>
+        <img src="https://trello.com/assets/c8b7bafdbc02d4015366.svg" alt="trello">
+        <a href="./newBoard.html" class="button-17">+Add Board</a>
+    </header>
+    <main>
+        <div class="main">
+            <div class="fixed_cont">
+                <div class="container_1">
+                    <div class="custom-title">
+                        <h2><span class="material-symbols-outlined">
+                                title
+                            </span> Title</h2>
+                        <p id="title" contenteditable="true"></p>
+                    </div>
+                    <div class="custom-desc">
+                        <h2><span class="material-symbols-outlined">
+                                list
+                            </span> Description</h2>
+                        <p class="desc" contenteditable="true"></p>
+                    </div>
+                    <div class="custon-date">
+                        <h2><span class="material-symbols-outlined">
+                                calendar_month
+                            </span> Date</h2>
+                        <input type="date" id="date_board"pattern="\d{2}-\d{2}-\d{2}">
+                    </div>
+                    <div class="date_container">
+                        <!-- <div>Date :</div> -->
+                        <!-- <div class="date"></div> -->
+                    </div>
+
+                    <div class="custon-label">
+                        <h2> <span class="material-symbols-outlined">
+                                sell
+                            </span> Labels</h2>
+                        <ul>
+                            <li class="li-active" style="background-color: rgb(168, 25, 61);"></li>
+                            <li class="" style="background-color: rgb(79, 204, 37);"></li>
+                            <li class="" style="background-color: rgb(30, 191, 250);"></li>
+                            <li class="" style="background-color: rgb(141, 163, 119);"></li>
+                            <li class="" style="background-color: rgb(153, 117, 189);"></li>
+                            <li class="" style="background-color: rgb(207, 97, 161);"></li>
+                            <li class="" style="background-color: rgb(36, 9, 89);"></li>
+                        </ul>
+
+                        <div class="label" contenteditable="true">Add Labels</div>
+                    </div>
+
+                    <div class="tasks">
+                        <h2><span class="material-symbols-outlined">
+                                select_check_box
+                            </span> Tasks</h2>
+                        <span class="line"></span>
+                        <hr>
+                        <div class="task" contenteditable="true">Add a Task</div>
+                    </div>
+                    <hr>
+                   
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="board">
+                <div class="board-in">
+                    <div class="board-head">
+                        <p class="board-card-title">To do <span class="count"></span></p>
+                        <div class="board-more-btn">...
+                            <button class="delete-btn board_delete_btn">Delete Board</button>
+                        </div>
+                    </div>
+                    <div class="board-card" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card" draggable="true" ondragstart="drag(event)" id="card1">
+                            <div class="card-top">
+                                <div class="card-top-labels"><label
+                                        style="background-color: rgb(207, 97, 161);">Urgent</label>
+                                </div>
+                                <div class="card-top-more">...
+                                    <button class="delete-btn card_delete_btn">Delete Card</button>
+                                </div>
+                            </div>
+                            <div class="card-title">Task1</div>
+                            <div>
+                                <p title="Task1 Detail Description"><span class="material-symbols-outlined">
+                                        format_list_bulleted
+                                    </span></p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">2023-12-04</p>
+                                <p class="card-footer-item">0</p>
+                            </div>
+                        </div>
+                        <div class="custom-input">
+                            <div class="board-add-card">+ Add Card</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-in">
+                    <div class="board-head">
+                        <p class="board-card-title">In progress <span class="count"></span></p>
+                        <div class="board-more-btn">...
+                            <button class="delete-btn board_delete_btn">Delete Board</button>
+                        </div>
+                    </div>
+                    <div class="board-card" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card" draggable="true" ondragstart="drag(event)" id="card2">
+                            <div class="card-top">
+                                <div class="card-top-labels"><label
+                                        style="background-color: rgb(30, 191, 250); ">Frontend</label>
+                                </div>
+                                <div class="card-top-more">...
+                                    <button class="delete-btn card_delete_btn">Delete Card</button>
+                                </div>
+                            </div>
+                            <div class="card-title">Task1</div>
+                            <div>
+                                <p title="Task1 Detail Description"><span class="material-symbols-outlined">
+                                        format_list_bulleted
+                                    </span></p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">2023-12-04</p>
+                                <p class="card-footer-item">0</p>
+                            </div>
+                        </div>
+                        <div class="custom-input">
+                            <div class="board-add-card">+ Add Card</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-in">
+                    <div class="board-head">
+                        <p class="board-card-title">Done <span class="count"></span></p>
+                        <div class="board-more-btn">...
+                            <button class="delete-btn board_delete_btn">Delete Board</button>
+                        </div>
+                    </div>
+                    <div class="board-card" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card" draggable="true" ondragstart="drag(event)" id="card3">
+                            <div class="card-top">
+                                <div class="card-top-labels"><label style="background-color: rgb(153, 117, 189);">DB
+                                        Testing</label>
+                                </div>
+                                <div class="card-top-more">...
+                                    <button class="delete-btn card_delete_btn">Delete Card</button>
+                                </div>
+                            </div>
+                            <div class="card-title">Task1</div>
+                            <div>
+                                <p title="Task1 Detail Description"><span class="material-symbols-outlined">
+                                        format_list_bulleted
+                                    </span></p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">2023-12-04</p>
+                                <p class="card-footer-item">0</p>
+                            </div>
+                        </div>
+                        <div class="custom-input">
+                            <div class="board-add-card">+ Add Card</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-in">
+                    <div class="board-head">
+                        <p class="board-card-title">Testing <span class="count"></span></p>
+                        <div class="board-more-btn">...
+                            <button class="delete-btn board_delete_btn">Delete Board</button>
+                        </div>
+                    </div>
+                    <div class="board-card" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card" draggable="true" ondragstart="drag(event)" id="card4">
+                            <div class="card-top">
+                                <div class="card-top-labels"><label
+                                        style="background-color: rgb(141, 163, 119);">Prototype</label>
+                                </div>
+                                <div class="card-top-more">...
+                                    <button class="delete-btn card_delete_btn">Delete Card</button>
+                                </div>
+                            </div>
+                            <div class="card-title">Task1</div>
+                            <div>
+                                <p title="Task1 Detail Description"><span class="material-symbols-outlined">
+                                        format_list_bulleted
+                                    </span></p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">2023-12-04</p>
+                                <p class="card-footer-item">0</p>
+                            </div>
+                        </div>
+                        <div class="custom-input">
+                            <div class="board-add-card">+ Add Card</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board">
+                <div class="board-in">
+                    <div class="board-head">
+                        <p class="board-card-title">Deployed <span class="count"></span></p>
+                        <div class="board-more-btn">...
+                            <button class="delete-btn board_delete_btn">Delete Board</button>
+                        </div>
+                    </div>
+                    <div class="board-card" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <div class="card" draggable="true" ondragstart="drag(event)" id="card5">
+                            <div class="card-top">
+                                <div class="card-top-labels"><label
+                                        style="background-color: rgb(79, 204, 37); color: rgb(255, 255, 255);">APIs</label>
+                                </div>
+                                <div class="card-top-more">...
+                                    <button class="delete-btn card_delete_btn">Delete Card</button>
+                                </div>
+                            </div>
+                            <div class="card-title">Task1</div>
+                            <div>
+                                <p title="Task1 Detail Description"><span class="material-symbols-outlined">
+                                        format_list_bulleted
+                                    </span></p>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-footer-item">2023-12-04</p>
+                                <p class="card-footer-item">0</p>
+                            </div>
+                        </div>
+                        <div class="custom-input">
+                            <div class="board-add-card">+ Add Card</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="board add_board">
+                <div class="add_board_btn ">
+                    <p>Add Board</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
